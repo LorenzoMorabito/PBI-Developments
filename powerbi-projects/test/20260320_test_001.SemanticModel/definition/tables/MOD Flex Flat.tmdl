@@ -1,0 +1,27 @@
+table 'MOD Flex Flat'
+
+	measure 'Flat Input Metric 1' = [Values]
+		displayFolder: Selected Metrics
+
+	measure 'Flat Input Metric 2' = [Units YTD]
+		displayFolder: Selected Metrics
+
+	measure 'Flat Input Metric 3' = [Units MAT]
+		displayFolder: Selected Metrics
+
+	measure 'Flat Input Metric 4' = [Investments +/- vs PY]
+		displayFolder: Selected Metrics
+
+	measure 'Flat Input Metric 5' = [Product Details +/- vs PY]
+		displayFolder: Selected Metrics
+
+	column Column
+		isHidden
+		formatString: 0
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+	partition 'MOD Flex Flat' = calculated
+		mode: import
+		source = Row("Column", BLANK())

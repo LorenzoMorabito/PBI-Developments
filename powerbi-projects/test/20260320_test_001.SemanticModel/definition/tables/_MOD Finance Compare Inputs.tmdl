@@ -1,0 +1,27 @@
+table '_MOD Finance Compare Inputs'
+	isHidden
+
+	measure 'Input Primary Measure' = [ACT Mth]
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Input Reference Measure 1' = [BDG Mth]
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Input Reference Measure 2' = [Previous Year]
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Column
+		isHidden
+		formatString: 0
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition '_MOD Finance Compare Inputs' = calculated
+		mode: import
+		source = Row("Column", BLANK())

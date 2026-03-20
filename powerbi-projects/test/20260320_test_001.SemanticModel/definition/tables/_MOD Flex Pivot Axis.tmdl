@@ -1,0 +1,62 @@
+table '_MOD Flex Pivot Axis'
+	isHidden
+
+	column DimensionKey
+		isHidden
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [DimensionKey]
+
+	column DimensionLabel
+		summarizeBy: none
+		sortByColumn: DimensionSort
+		isNameInferred
+		sourceColumn: [DimensionLabel]
+
+	column DimensionSort
+		isHidden
+		formatString: 0
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [DimensionSort]
+
+	column AxisLabel
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [AxisLabel]
+
+	partition '_MOD Flex Pivot Axis' = calculated
+		mode: import
+		source =
+				UNION(
+				    SELECTCOLUMNS(
+				        FILTER(
+				            VALUES(Country[Country]),
+				            NOT ISBLANK(Country[Country])
+				        ),
+				        "DimensionKey", "dimension_1",
+				        "DimensionLabel", "Country",
+				        "DimensionSort", 1,
+				        "AxisLabel", Country[Country]
+				    ),
+				    SELECTCOLUMNS(
+				        FILTER(
+				            VALUES('Sales Product'[Product]),
+				            NOT ISBLANK('Sales Product'[Product])
+				        ),
+				        "DimensionKey", "dimension_2",
+				        "DimensionLabel", "Product",
+				        "DimensionSort", 2,
+				        "AxisLabel", 'Sales Product'[Product]
+				    ),
+				    SELECTCOLUMNS(
+				        FILTER(
+				            VALUES('Finance Product'[Company]),
+				            NOT ISBLANK('Finance Product'[Company])
+				        ),
+				        "DimensionKey", "dimension_3",
+				        "DimensionLabel", "Company",
+				        "DimensionSort", 3,
+				        "AxisLabel", 'Finance Product'[Company]
+				    )
+				)

@@ -1,11 +1,13 @@
 # Power BI Desktop local workspace artifacts
 **/.pbi/
+**/.platform
 
 # Local source data and exploratory files are intentionally not versioned.
 # Team policy is documented in docs/SETUP.md and docs/WORKFLOW.md.
 /data_source/
 /xml_oas/
 /databricks-catalog-assessment/
+/test/
 
 # Repo health generated outputs are runtime artifacts and should not be committed.
 /repository-health/outputs/current/*
@@ -16,6 +18,7 @@
 # Installed module state and local test evidence are not source assets.
 /powerbi-projects/module-config/
 /powerbi-projects/*/module-config/
+/powerbi-projects/test/module-config/
 
 # BEGIN REPO-HEALTH
 # Repo health generated outputs are runtime artifacts and should not be committed.
@@ -24,4 +27,3 @@
 /repository-health/outputs/history/*
 !/repository-health/outputs/history/.gitkeep
 # END REPO-HEALTH
-

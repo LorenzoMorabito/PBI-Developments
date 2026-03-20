@@ -1,0 +1,34 @@
+table 'MOD Finance Compare'
+
+	measure 'Selected Reference Value' = [Metric Compare (Selected)]
+		displayFolder: Compare
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Primary vs (Selected) abs' =
+			
+			VAR comp = [Metric Compare (Selected)]
+			RETURN IF( ISBLANK(comp), BLANK(), [Input Primary Measure] - comp )
+		displayFolder: Compare
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Primary vs (Selected) %' =
+			
+			VAR comp = [Metric Compare (Selected)]
+			RETURN IF( ISBLANK(comp), BLANK(), DIVIDE([Input Primary Measure] - comp, comp) )
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: Compare
+
+	column Column
+		isHidden
+		formatString: 0
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'MOD Finance Compare' = calculated
+		mode: import
+		source = Row("Column", BLANK())

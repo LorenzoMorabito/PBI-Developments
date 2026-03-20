@@ -1,0 +1,39 @@
+table '_MOD Flex Flat Measures'
+    isHidden
+
+    column 'Flat Measure'
+        summarizeBy: none
+        sourceColumn: [Value1]
+        sortByColumn: 'Flat Measure Order'
+
+        relatedColumnDetails
+            groupByColumn: 'Flat Measure Fields'
+
+    column 'Flat Measure Fields'
+        isHidden
+        summarizeBy: none
+        sourceColumn: [Value2]
+        sortByColumn: 'Flat Measure Order'
+
+        extendedProperty ParameterMetadata =
+                {
+                  "version": 3,
+                  "kind": 2
+                }
+
+    column 'Flat Measure Order'
+        isHidden
+        formatString: 0
+        summarizeBy: none
+        sourceColumn: [Value3]
+
+    partition '_MOD Flex Flat Measures' = calculated
+        mode: import
+        source =
+                {
+                ("Values", NAMEOF('MOD Flex Flat'[Flat Input Metric 1]), 0),
+                ("Units YTD", NAMEOF('MOD Flex Flat'[Flat Input Metric 2]), 1),
+                ("Units MAT", NAMEOF('MOD Flex Flat'[Flat Input Metric 3]), 2),
+                ("Investments +/- vs PY", NAMEOF('MOD Flex Flat'[Flat Input Metric 4]), 3),
+                ("Product Details +/- vs PY", NAMEOF('MOD Flex Flat'[Flat Input Metric 5]), 4)
+                }

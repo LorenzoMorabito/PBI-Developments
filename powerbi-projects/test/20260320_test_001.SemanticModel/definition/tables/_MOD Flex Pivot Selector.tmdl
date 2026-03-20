@@ -1,0 +1,42 @@
+table '_MOD Flex Pivot Selector'
+    isHidden
+
+    column MeasureKey
+        isHidden
+        summarizeBy: none
+        isNameInferred
+        sourceColumn: [MeasureKey]
+
+    column DisplayLabel
+        summarizeBy: none
+        sortByColumn: MeasureSort
+        isNameInferred
+        sourceColumn: [DisplayLabel]
+
+    column Domain
+        summarizeBy: none
+        isNameInferred
+        sourceColumn: [Domain]
+
+    column MeasureSort
+        isHidden
+        formatString: 0
+        summarizeBy: none
+        isNameInferred
+        sourceColumn: [MeasureSort]
+
+    partition '_MOD Flex Pivot Selector' = calculated
+        mode: import
+        source = ```
+                DATATABLE(
+                    "MeasureKey", STRING,
+                    "DisplayLabel", STRING,
+                    "Domain", STRING,
+                    "MeasureSort", INTEGER,
+                    {
+                {"metric_1", "Values", "Metric", 1},
+                {"metric_2", "Units", "Metric", 2},
+                {"metric_3", "Units MAT", "Metric", 3}
+                    }
+                )
+                ```

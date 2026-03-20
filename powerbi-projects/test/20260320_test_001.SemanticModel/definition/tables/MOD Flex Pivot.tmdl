@@ -1,0 +1,83 @@
+table 'MOD Flex Pivot'
+
+	measure 'Flex Table Selected Value' =
+		
+		VAR SelectedMeasure = SELECTEDVALUE('_MOD Flex Pivot Selector'[MeasureKey])
+		VAR AxisKey = SELECTEDVALUE('_MOD Flex Pivot Axis'[DimensionKey])
+		VAR AxisValue = SELECTEDVALUE('_MOD Flex Pivot Axis'[AxisLabel])
+		VAR BaseMetric =
+		    SWITCH(
+		        SelectedMeasure,
+			        "metric_1", [Flex Input Metric 1],
+			        "metric_2", [Flex Input Metric 2],
+			        "metric_3", [Flex Input Metric 3]
+		        BLANK()
+		    )
+		RETURN
+		SWITCH(
+		    AxisKey,
+			    "dimension_1",
+			        CALCULATE(
+			            BaseMetric,
+			            KEEPFILTERS(TREATAS({AxisValue}, Country[Country]))
+			        ),
+			    "dimension_2",
+			        CALCULATE(
+			            BaseMetric,
+			            KEEPFILTERS(TREATAS({AxisValue}, 'Sales Product'[Product]))
+			        ),
+			    "dimension_3",
+			        CALCULATE(
+			            BaseMetric,
+			            KEEPFILTERS(TREATAS({AxisValue}, 'Finance Product'[Company]))
+			        )
+		    BLANK()
+		)
+		displayFolder: Outputs
+
+	measure 'Flex Table Row Has Data' =
+		
+		VAR NonBlankMeasureCount =
+		    SUMX(
+		        VALUES('_MOD Flex Pivot Selector'[MeasureKey]),
+		        VAR CurrentMeasureKey = '_MOD Flex Pivot Selector'[MeasureKey]
+		        RETURN
+		            IF(
+		                NOT ISBLANK(
+		                    CALCULATE(
+		                        [Flex Table Selected Value],
+		                        TREATAS({CurrentMeasureKey}, '_MOD Flex Pivot Selector'[MeasureKey])
+		                    )
+		                ),
+		                1,
+		                0
+		            )
+		    )
+		RETURN
+		IF(NonBlankMeasureCount > 0, 1)
+		displayFolder: Diagnostics
+
+	measure 'Flex Table Title' =
+		
+		VAR SelectedDimensions =
+		    CONCATENATEX(
+		        VALUES('_MOD Flex Pivot Axis'[DimensionLabel]),
+		        '_MOD Flex Pivot Axis'[DimensionLabel],
+		        ", ",
+		        '_MOD Flex Pivot Axis'[DimensionSort],
+		        ASC
+		    )
+		RETURN
+		"Flexible Metrics Pivot | " & COALESCE(SelectedDimensions, "Country")
+		displayFolder: Presentation
+
+	column Column
+		isHidden
+		formatString: 0
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+	partition 'MOD Flex Pivot' = calculated
+		mode: import
+		source = Row("Column", BLANK())

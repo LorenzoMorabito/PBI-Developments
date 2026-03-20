@@ -1,0 +1,19 @@
+table '_MOD Flex Pivot Inputs'
+	isHidden
+
+	measure 'Flex Input Metric 1' = [Values]
+
+	measure 'Flex Input Metric 2' = [Units]
+
+	measure 'Flex Input Metric 3' = [Units MAT]
+
+	column Column
+		isHidden
+		formatString: 0
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+	partition '_MOD Flex Pivot Inputs' = calculated
+		mode: import
+		source = Row("Column", BLANK())
