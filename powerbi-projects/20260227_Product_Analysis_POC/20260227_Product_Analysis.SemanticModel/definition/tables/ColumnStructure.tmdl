@@ -44,11 +44,11 @@ table ColumnStructure
 				    "MetricOrder", INTEGER,
 				    "MeasureType", STRING,
 				    {
-				        {"Sales", "ACT", 0, "Sales"},
+				        {"Sales", "QRT", 0, "Sales"},
 				        {"Sales", "MS%", 1, "Sales"},
 				        {"Sales", "PPG% vs QoQ", 2, "Sales"},
 				        {"Sales", "PPG% vs PY", 3, "Sales"},
-				        {"Promo", "ACT", 4, "Promo"},
+				        {"Promo", "QRT", 4, "Promo"},
 				        {"Promo", "MS%", 5, "Promo"},
 				        {"Promo", "PPG% vs QoQ", 6, "Promo"},
 				        {"Promo", "PPG% vs PY", 7, "Promo"}

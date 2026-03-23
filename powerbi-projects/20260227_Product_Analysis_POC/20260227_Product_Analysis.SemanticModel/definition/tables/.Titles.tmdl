@@ -4,7 +4,7 @@ table '.Titles'
 	measure 'Promo Diagram Act Vs PY' = ```
 			
 			VAR lbl = [MetricPromoLabel (Selected)]
-			VAR txt = lbl & " Actual Vs " & lbl & " PY"
+			VAR txt = lbl & " QRT Vs " & lbl & " PY"
 			RETURN txt
 			
 			```
@@ -13,7 +13,7 @@ table '.Titles'
 	measure 'Sales Visual Act Vs PY' =
 			
 			VAR lbl = [MetricSalesLabel (Selected)]
-			VAR txt = lbl & " Actual Vs " & lbl & " PY"
+			VAR txt = lbl & " QRT Vs " & lbl & " PY"
 			RETURN txt
 		lineageTag: e86d45eb-4b60-41de-95a2-43cda97ec22d
 
@@ -48,7 +48,7 @@ table '.Titles'
 	measure 'Promo Card ACT' =
 			
 			VAR lbl = [MetricPromoLabel (Selected)]
-			VAR txt = lbl & " ACT"
+			VAR txt = lbl & " QRT"
 			RETURN txt
 		lineageTag: fd43e006-b6d0-46a9-aa07-8d6434a5176e
 
@@ -63,7 +63,7 @@ table '.Titles'
 	measure 'Sales Card ACT' =
 			
 			VAR lbl = [MetricSalesLabel (Selected)]
-			VAR txt = lbl & " ACT"
+			VAR txt = lbl & " QRT"
 			RETURN txt
 		lineageTag: 8d10c5a3-9fa2-49b3-b86b-53efe51484ac
 
@@ -139,7 +139,7 @@ table '.Titles'
 	measure 'Vis Trend by TopN Product' =
 			
 			VAR lbl = [MetricSalesLabel (Selected)]
-			VAR txt = lbl & " ACT"
+			VAR txt = lbl & " QRT"
 			RETURN txt
 			// Top N Corporation by Spending
 		lineageTag: 543bfa2e-7340-47ef-b1e7-34668747c93c

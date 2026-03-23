@@ -102,7 +102,7 @@
               },
               "queryRef": "Msr Sales Buckets LP.Sales Measure (Bucket, LP)",
               "nativeQueryRef": "ACT",
-              "displayName": "ACT"
+              "displayName": "QRT"
             },
             {
               "field": {
@@ -177,7 +177,7 @@
               },
               "queryRef": "LegendCorp (TopN + Target + Others).Promo Measure (Menarini + TopN + Others)",
               "nativeQueryRef": "ACT1",
-              "displayName": "ACT"
+              "displayName": "QRT"
             },
             {
               "field": {
@@ -222,7 +222,7 @@
               },
               "queryRef": "Msr Fin Buckets LP.Fin ACT (Bucket, LP)",
               "nativeQueryRef": "ACT2",
-              "displayName": "ACT"
+              "displayName": "QRT"
             }
           ]
         }

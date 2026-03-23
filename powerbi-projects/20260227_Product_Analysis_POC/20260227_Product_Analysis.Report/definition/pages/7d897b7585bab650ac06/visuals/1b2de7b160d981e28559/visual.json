@@ -132,7 +132,7 @@
               },
               "queryRef": "MeasureSales.LP Sales Values",
               "nativeQueryRef": "ACT",
-              "displayName": "ACT"
+              "displayName": "QRT"
             },
             {
               "field": {
@@ -192,7 +192,7 @@
               },
               "queryRef": "MeasurePromo.LP Promo Product Details",
               "nativeQueryRef": "ACT1",
-              "displayName": "ACT"
+              "displayName": "QRT"
             },
             {
               "field": {
@@ -222,7 +222,7 @@
               },
               "queryRef": "MeasureFinance.LP Finance ACT",
               "nativeQueryRef": "ACT2",
-              "displayName": "ACT"
+              "displayName": "QRT"
             },
             {
               "field": {

@@ -10,7 +10,7 @@ table TopMetric
 			    "Sales Values", [Sales Values],
 			    "Promo Spend",  [Promo Spend],
 			    "Promo Voice",  [Promo Details],
-			    "Fin ACT",      [Fin ACT],
+			    "Fin QRT",      [Fin ACT],
 			    "Fin BDG",      [Fin BDG],
 			    [Sales Units]
 			)

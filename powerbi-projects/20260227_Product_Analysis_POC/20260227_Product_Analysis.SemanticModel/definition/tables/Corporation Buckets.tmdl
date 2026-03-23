@@ -35,10 +35,10 @@ table 'Corporation Buckets'
 			SWITCH(
 			    TRUE(),
 			
-			    SELECTEDVALUE('ColumnStructure'[Metric]) = "ACT" && SELECTEDVALUE('ColumnStructure'[Group]) = "Sales",
+			    SELECTEDVALUE('ColumnStructure'[Metric]) = "QRT" && SELECTEDVALUE('ColumnStructure'[Group]) = "Sales",
 			        [Sales Values (Bucket, LP)],
 			
-			    SELECTEDVALUE('ColumnStructure'[Metric]) = "ACT" && SELECTEDVALUE('ColumnStructure'[Group]) = "Promo",
+			    SELECTEDVALUE('ColumnStructure'[Metric]) = "QRT" && SELECTEDVALUE('ColumnStructure'[Group]) = "Promo",
 			        [Promo Spend (Bucket, LP)],
 			
 			    SELECTEDVALUE('ColumnStructure'[Metric]) = "MS%" && SELECTEDVALUE('ColumnStructure'[Group]) = "Sales",
