@@ -1,0 +1,54 @@
+Processing blobs: 393                        
+Processing trees: 269                        
+Processing commits: 14                        
+Matching commits to trees: 14                        
+Processing annotated tags: 0                        
+Processing references: 3                        
+| Name                         | Value     | Level of concern               |
+| ---------------------------- | --------- | ------------------------------ |
+| Overall repository size      |           |                                |
+| * Commits                    |           |                                |
+|   * Count                    |    14     |                                |
+|   * Total size               |  4.29 KiB |                                |
+| * Trees                      |           |                                |
+|   * Count                    |   269     |                                |
+|   * Total size               |  46.9 KiB |                                |
+|   * Total tree entries       |  1.05 k   |                                |
+| * Blobs                      |           |                                |
+|   * Count                    |   393     |                                |
+|   * Total size               |  4.98 MiB |                                |
+| * Annotated tags             |           |                                |
+|   * Count                    |     0     |                                |
+| * References                 |           |                                |
+|   * Count                    |     3     |                                |
+|     * Branches               |     1     |                                |
+|     * Remote-tracking refs   |     2     |                                |
+|                              |           |                                |
+| Biggest objects              |           |                                |
+| * Commits                    |           |                                |
+|   * Maximum size         [1] |   345 B   |                                |
+|   * Maximum parents      [1] |     1     |                                |
+| * Trees                      |           |                                |
+|   * Maximum entries      [2] |   110     |                                |
+| * Blobs                      |           |                                |
+|   * Maximum size         [3] |  1.63 MiB |                                |
+|                              |           |                                |
+| History structure            |           |                                |
+| * Maximum history depth      |     9     |                                |
+| * Maximum tag depth          |     0     |                                |
+|                              |           |                                |
+| Biggest checkouts            |           |                                |
+| * Number of directories  [4] |   222     |                                |
+| * Maximum path depth     [4] |     9     |                                |
+| * Maximum path length    [5] |   171 B   | *                              |
+| * Number of files        [4] |   401     |                                |
+| * Total size of files    [6] |  3.21 MiB |                                |
+| * Number of symlinks         |     0     |                                |
+| * Number of submodules       |     0     |                                |
+
+[1]  995a96d46401067a3600c377f50f6288a2b51945 (refs/remotes/origin/repo-health-data)
+[2]  a8022f43216720f725186449b167003ede411a6f (refs/heads/main:powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/pages/7d897b7585bab650ac06/visuals)
+[3]  4199e324c08b92164b664568af105d8e142f5648 (refs/heads/main:powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.SemanticModel/definition/cultures/en-US.tmdl)
+[4]  39b983c9af371f30e24a18b16924f9c28b4f9ba8 (refs/heads/main^{tree})
+[5]  ca9703d54de78744c592bbedba07a619cfdddd44 (c2fb77357eeef1bf17def594ff7704944e991d36^{tree})
+[6]  b7570f2e9fb788d8814a5311e8e5ed9b9a2be6b1 (aa74eac1647ca59b181b3df952c5e0095653a65f^{tree})
