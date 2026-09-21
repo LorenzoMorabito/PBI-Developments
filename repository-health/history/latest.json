@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-09-14T07:42:20Z",
+  "timestamp": "2026-09-21T07:46:00Z",
   "repository": "LorenzoMorabito/PBI-Developments",
   "mode": "schedule",
   "branch": "main",
   "commit": "d39ef15819887c2272e51feeec4f94ed64e53805",
   "git_core": {
     "size_pack_mb": 0.36,
-    "object_count": 885,
-    "packed_object_count": 885,
+    "object_count": 896,
+    "packed_object_count": 896,
     "pack_count": 1,
     "loose_object_count": 0
   },
@@ -110,6 +110,12 @@
         "size_mb": 0.09
       },
       {
+        "sha": "3e44657ca9145e279aca6f13d9c80e1cfd5ea931",
+        "path": "repository-health/history/top-files-history.csv",
+        "size_b": 77066,
+        "size_mb": 0.07
+      },
+      {
         "sha": "46b8ac3dcbae4256ecdb874eefe6cce65c8978d0",
         "path": "repository-health/history/top-files-history.csv",
         "size_b": 74408,
@@ -132,24 +138,18 @@
         "path": "repository-health/history/top-files-history.csv",
         "size_b": 66434,
         "size_mb": 0.06
-      },
-      {
-        "sha": "edc837791f63b6359fa8acde1c1faf0073744a74",
-        "path": "repository-health/history/top-files-history.csv",
-        "size_b": 63776,
-        "size_mb": 0.06
       }
     ]
   },
   "growth": {
     "hasBaseline": true,
-    "size_pack_growth_pct": 2.86,
+    "size_pack_growth_pct": 0.0,
     "git_size_growth_pct": 0.0
   },
   "file_growth": {
     "hasBaseline": true,
     "baseline_commit": "d39ef15819887c2272e51feeec4f94ed64e53805",
-    "baseline_timestamp": "2026-09-07T07:08:44Z",
+    "baseline_timestamp": "2026-09-14T07:42:20Z",
     "new_entries_count": 0,
     "grown_entries_count": 0,
     "shrunk_entries_count": 0,
