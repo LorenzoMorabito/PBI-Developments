@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-09-28T08:25:37Z",
+  "timestamp": "2026-10-05T08:37:10Z",
   "repository": "LorenzoMorabito/PBI-Developments",
   "mode": "schedule",
   "branch": "main",
   "commit": "d39ef15819887c2272e51feeec4f94ed64e53805",
   "git_core": {
     "size_pack_mb": 0.36,
-    "object_count": 907,
-    "packed_object_count": 907,
+    "object_count": 918,
+    "packed_object_count": 918,
     "pack_count": 1,
     "loose_object_count": 0
   },
@@ -80,13 +80,13 @@
     "blob_over_max": 0,
     "largest_blobs": [
       {
-        "sha": "d360e6f4855e9e5a466a5a67ae66a8dfa2eda284",
+        "sha": "4199e324c08b92164b664568af105d8e142f5648",
         "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.SemanticModel/definition/cultures/en-US.tmdl",
         "size_b": 1705422,
         "size_mb": 1.63
       },
       {
-        "sha": "4199e324c08b92164b664568af105d8e142f5648",
+        "sha": "d360e6f4855e9e5a466a5a67ae66a8dfa2eda284",
         "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.SemanticModel/definition/cultures/en-US.tmdl",
         "size_b": 1705422,
         "size_mb": 1.63
@@ -108,6 +108,12 @@
         "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/pages/7d897b7585bab650ac06/page.json",
         "size_b": 93052,
         "size_mb": 0.09
+      },
+      {
+        "sha": "075c68924d06f935d18e01c56479890ba2b328e7",
+        "path": "repository-health/history/top-files-history.csv",
+        "size_b": 82382,
+        "size_mb": 0.08
       },
       {
         "sha": "1a05c8a91f3a00384a71da1ac2000d3f631f5403",
@@ -132,12 +138,6 @@
         "path": "repository-health/history/top-files-history.csv",
         "size_b": 71750,
         "size_mb": 0.07
-      },
-      {
-        "sha": "749a198a7ed6e53fb7abe8a201e085c2e82cd346",
-        "path": "repository-health/history/top-files-history.csv",
-        "size_b": 69092,
-        "size_mb": 0.07
       }
     ]
   },
@@ -149,7 +149,7 @@
   "file_growth": {
     "hasBaseline": true,
     "baseline_commit": "d39ef15819887c2272e51feeec4f94ed64e53805",
-    "baseline_timestamp": "2026-09-21T07:46:00Z",
+    "baseline_timestamp": "2026-09-28T08:25:37Z",
     "new_entries_count": 0,
     "grown_entries_count": 0,
     "shrunk_entries_count": 0,
