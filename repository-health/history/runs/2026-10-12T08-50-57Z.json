@@ -1,0 +1,271 @@
+{
+  "timestamp": "2026-10-12T08:50:57Z",
+  "repository": "LorenzoMorabito/PBI-Developments",
+  "mode": "schedule",
+  "branch": "main",
+  "commit": "d39ef15819887c2272e51feeec4f94ed64e53805",
+  "git_core": {
+    "size_pack_mb": 0.36,
+    "object_count": 929,
+    "packed_object_count": 929,
+    "pack_count": 1,
+    "loose_object_count": 0
+  },
+  "repo": {
+    "git_size_mb": 0.49,
+    "tracked_file_count": 401,
+    "working_file_count": 399,
+    "commit_count": 53,
+    "largest_current_file_mb": 1.69,
+    "top_current_files": [
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.SemanticModel/definition/cultures/en-US.tmdl",
+        "size_mb": 1.69,
+        "size_b": 1768811
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/bookmarks/5aa23e81c55041a60a51.bookmark.json",
+        "size_mb": 0.14,
+        "size_b": 150082
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/bookmarks/a7add2c54cbd59546893.bookmark.json",
+        "size_mb": 0.14,
+        "size_b": 150082
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/pages/7d897b7585bab650ac06/page.json",
+        "size_mb": 0.09,
+        "size_b": 96991
+      },
+      {
+        "path": "repository-health/scripts/RepoHealth.Common.ps1",
+        "size_mb": 0.03,
+        "size_b": 33834
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/pages/7d897b7585bab650ac06/visuals/1b2de7b160d981e28559/visual.json",
+        "size_mb": 0.03,
+        "size_b": 29125
+      },
+      {
+        "path": "repository-health/scripts/Build-RepoHealthDashboard.ps1",
+        "size_mb": 0.03,
+        "size_b": 29096
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/pages/7d897b7585bab650ac06/visuals/3962734608c944476ac9/visual.json",
+        "size_mb": 0.03,
+        "size_b": 26358
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.SemanticModel/diagramLayout.json",
+        "size_mb": 0.02,
+        "size_b": 20413
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/StaticResources/SharedResources/BaseThemes/CY26SU02.json",
+        "size_mb": 0.02,
+        "size_b": 19330
+      }
+    ],
+    "forbidden_files": [],
+    "tracked_excluded_files": []
+  },
+  "history": {
+    "max_blob_mb": 1.63,
+    "max_blob_path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.SemanticModel/definition/cultures/en-US.tmdl",
+    "blob_over_1mb": 2,
+    "blob_over_5mb": 0,
+    "blob_over_max": 0,
+    "largest_blobs": [
+      {
+        "sha": "d360e6f4855e9e5a466a5a67ae66a8dfa2eda284",
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.SemanticModel/definition/cultures/en-US.tmdl",
+        "size_b": 1705422,
+        "size_mb": 1.63
+      },
+      {
+        "sha": "4199e324c08b92164b664568af105d8e142f5648",
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.SemanticModel/definition/cultures/en-US.tmdl",
+        "size_b": 1705422,
+        "size_mb": 1.63
+      },
+      {
+        "sha": "734dcf5d7c6152a88ea5c92d66b04975277ee153",
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/bookmarks/a7add2c54cbd59546893.bookmark.json",
+        "size_b": 145712,
+        "size_mb": 0.14
+      },
+      {
+        "sha": "1c9e1fe78e5b1e6833626bcd6ba6363df9df0a2f",
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/bookmarks/5aa23e81c55041a60a51.bookmark.json",
+        "size_b": 145712,
+        "size_mb": 0.14
+      },
+      {
+        "sha": "74bf3838fd007348d07e1bd28dffa636394afe3f",
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/pages/7d897b7585bab650ac06/page.json",
+        "size_b": 93052,
+        "size_mb": 0.09
+      },
+      {
+        "sha": "945b6721a46d23f0a3afc140f92912d01c76235c",
+        "path": "repository-health/history/top-files-history.csv",
+        "size_b": 85040,
+        "size_mb": 0.08
+      },
+      {
+        "sha": "075c68924d06f935d18e01c56479890ba2b328e7",
+        "path": "repository-health/history/top-files-history.csv",
+        "size_b": 82382,
+        "size_mb": 0.08
+      },
+      {
+        "sha": "1a05c8a91f3a00384a71da1ac2000d3f631f5403",
+        "path": "repository-health/history/top-files-history.csv",
+        "size_b": 79724,
+        "size_mb": 0.08
+      },
+      {
+        "sha": "3e44657ca9145e279aca6f13d9c80e1cfd5ea931",
+        "path": "repository-health/history/top-files-history.csv",
+        "size_b": 77066,
+        "size_mb": 0.07
+      },
+      {
+        "sha": "46b8ac3dcbae4256ecdb874eefe6cce65c8978d0",
+        "path": "repository-health/history/top-files-history.csv",
+        "size_b": 74408,
+        "size_mb": 0.07
+      }
+    ]
+  },
+  "growth": {
+    "hasBaseline": true,
+    "size_pack_growth_pct": 0.0,
+    "git_size_growth_pct": 2.08
+  },
+  "file_growth": {
+    "hasBaseline": true,
+    "baseline_commit": "d39ef15819887c2272e51feeec4f94ed64e53805",
+    "baseline_timestamp": "2026-10-05T08:37:10Z",
+    "new_entries_count": 0,
+    "grown_entries_count": 0,
+    "shrunk_entries_count": 0,
+    "unchanged_count": 10,
+    "changes": [
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.SemanticModel/definition/cultures/en-US.tmdl",
+        "rank": 1,
+        "previous_rank": 1,
+        "current_size_mb": 1.69,
+        "previous_size_mb": 1.69,
+        "delta_mb": 0.0,
+        "delta_pct": 0.0,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/bookmarks/5aa23e81c55041a60a51.bookmark.json",
+        "rank": 2,
+        "previous_rank": 2,
+        "current_size_mb": 0.14,
+        "previous_size_mb": 0.14,
+        "delta_mb": 0.0,
+        "delta_pct": 0.0,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/bookmarks/a7add2c54cbd59546893.bookmark.json",
+        "rank": 3,
+        "previous_rank": 3,
+        "current_size_mb": 0.14,
+        "previous_size_mb": 0.14,
+        "delta_mb": 0.0,
+        "delta_pct": 0.0,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/pages/7d897b7585bab650ac06/page.json",
+        "rank": 4,
+        "previous_rank": 4,
+        "current_size_mb": 0.09,
+        "previous_size_mb": 0.09,
+        "delta_mb": 0.0,
+        "delta_pct": 0.0,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "path": "repository-health/scripts/RepoHealth.Common.ps1",
+        "rank": 5,
+        "previous_rank": 5,
+        "current_size_mb": 0.03,
+        "previous_size_mb": 0.03,
+        "delta_mb": 0.0,
+        "delta_pct": 0.0,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/pages/7d897b7585bab650ac06/visuals/1b2de7b160d981e28559/visual.json",
+        "rank": 6,
+        "previous_rank": 6,
+        "current_size_mb": 0.03,
+        "previous_size_mb": 0.03,
+        "delta_mb": 0.0,
+        "delta_pct": 0.0,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "path": "repository-health/scripts/Build-RepoHealthDashboard.ps1",
+        "rank": 7,
+        "previous_rank": 7,
+        "current_size_mb": 0.03,
+        "previous_size_mb": 0.03,
+        "delta_mb": 0.0,
+        "delta_pct": 0.0,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/pages/7d897b7585bab650ac06/visuals/3962734608c944476ac9/visual.json",
+        "rank": 8,
+        "previous_rank": 8,
+        "current_size_mb": 0.03,
+        "previous_size_mb": 0.03,
+        "delta_mb": 0.0,
+        "delta_pct": 0.0,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.SemanticModel/diagramLayout.json",
+        "rank": 9,
+        "previous_rank": 9,
+        "current_size_mb": 0.02,
+        "previous_size_mb": 0.02,
+        "delta_mb": 0.0,
+        "delta_pct": 0.0,
+        "change_type": "UNCHANGED"
+      },
+      {
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/StaticResources/SharedResources/BaseThemes/CY26SU02.json",
+        "rank": 10,
+        "previous_rank": 10,
+        "current_size_mb": 0.02,
+        "previous_size_mb": 0.02,
+        "delta_mb": 0.0,
+        "delta_pct": 0.0,
+        "change_type": "UNCHANGED"
+      }
+    ]
+  },
+  "policy": {
+    "status": "WARN",
+    "fail_reasons": [],
+    "warning_reasons": [
+      "Largest current file is 1.69 MB, above warning threshold 1 MB."
+    ]
+  },
+  "git_sizer": {
+    "available": true,
+    "output_path": ".\\repository-health\\outputs\\current\\git-sizer.txt"
+  }
+}
