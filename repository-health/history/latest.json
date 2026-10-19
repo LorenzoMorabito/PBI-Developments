@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-10-12T08:50:57Z",
+  "timestamp": "2026-10-19T07:29:04Z",
   "repository": "LorenzoMorabito/PBI-Developments",
   "mode": "schedule",
   "branch": "main",
   "commit": "d39ef15819887c2272e51feeec4f94ed64e53805",
   "git_core": {
     "size_pack_mb": 0.36,
-    "object_count": 929,
-    "packed_object_count": 929,
+    "object_count": 940,
+    "packed_object_count": 940,
     "pack_count": 1,
     "loose_object_count": 0
   },
@@ -92,14 +92,14 @@
         "size_mb": 1.63
       },
       {
-        "sha": "734dcf5d7c6152a88ea5c92d66b04975277ee153",
-        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/bookmarks/a7add2c54cbd59546893.bookmark.json",
+        "sha": "1c9e1fe78e5b1e6833626bcd6ba6363df9df0a2f",
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/bookmarks/5aa23e81c55041a60a51.bookmark.json",
         "size_b": 145712,
         "size_mb": 0.14
       },
       {
-        "sha": "1c9e1fe78e5b1e6833626bcd6ba6363df9df0a2f",
-        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/bookmarks/5aa23e81c55041a60a51.bookmark.json",
+        "sha": "734dcf5d7c6152a88ea5c92d66b04975277ee153",
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/bookmarks/a7add2c54cbd59546893.bookmark.json",
         "size_b": 145712,
         "size_mb": 0.14
       },
@@ -108,6 +108,12 @@
         "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/pages/7d897b7585bab650ac06/page.json",
         "size_b": 93052,
         "size_mb": 0.09
+      },
+      {
+        "sha": "bd9f3df7d295ed0d250fb53f21efc2ff2f38dd58",
+        "path": "repository-health/history/top-files-history.csv",
+        "size_b": 87698,
+        "size_mb": 0.08
       },
       {
         "sha": "945b6721a46d23f0a3afc140f92912d01c76235c",
@@ -132,24 +138,18 @@
         "path": "repository-health/history/top-files-history.csv",
         "size_b": 77066,
         "size_mb": 0.07
-      },
-      {
-        "sha": "46b8ac3dcbae4256ecdb874eefe6cce65c8978d0",
-        "path": "repository-health/history/top-files-history.csv",
-        "size_b": 74408,
-        "size_mb": 0.07
       }
     ]
   },
   "growth": {
     "hasBaseline": true,
     "size_pack_growth_pct": 0.0,
-    "git_size_growth_pct": 2.08
+    "git_size_growth_pct": 0.0
   },
   "file_growth": {
     "hasBaseline": true,
     "baseline_commit": "d39ef15819887c2272e51feeec4f94ed64e53805",
-    "baseline_timestamp": "2026-10-05T08:37:10Z",
+    "baseline_timestamp": "2026-10-12T08:50:57Z",
     "new_entries_count": 0,
     "grown_entries_count": 0,
     "shrunk_entries_count": 0,
