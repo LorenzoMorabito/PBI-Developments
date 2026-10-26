@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-10-19T07:29:04Z",
+  "timestamp": "2026-10-26T07:32:47Z",
   "repository": "LorenzoMorabito/PBI-Developments",
   "mode": "schedule",
   "branch": "main",
   "commit": "d39ef15819887c2272e51feeec4f94ed64e53805",
   "git_core": {
-    "size_pack_mb": 0.36,
-    "object_count": 940,
-    "packed_object_count": 940,
+    "size_pack_mb": 0.37,
+    "object_count": 951,
+    "packed_object_count": 951,
     "pack_count": 1,
     "loose_object_count": 0
   },
@@ -80,22 +80,16 @@
     "blob_over_max": 0,
     "largest_blobs": [
       {
-        "sha": "d360e6f4855e9e5a466a5a67ae66a8dfa2eda284",
-        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.SemanticModel/definition/cultures/en-US.tmdl",
-        "size_b": 1705422,
-        "size_mb": 1.63
-      },
-      {
         "sha": "4199e324c08b92164b664568af105d8e142f5648",
         "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.SemanticModel/definition/cultures/en-US.tmdl",
         "size_b": 1705422,
         "size_mb": 1.63
       },
       {
-        "sha": "1c9e1fe78e5b1e6833626bcd6ba6363df9df0a2f",
-        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/bookmarks/5aa23e81c55041a60a51.bookmark.json",
-        "size_b": 145712,
-        "size_mb": 0.14
+        "sha": "d360e6f4855e9e5a466a5a67ae66a8dfa2eda284",
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.SemanticModel/definition/cultures/en-US.tmdl",
+        "size_b": 1705422,
+        "size_mb": 1.63
       },
       {
         "sha": "734dcf5d7c6152a88ea5c92d66b04975277ee153",
@@ -104,9 +98,21 @@
         "size_mb": 0.14
       },
       {
+        "sha": "1c9e1fe78e5b1e6833626bcd6ba6363df9df0a2f",
+        "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/bookmarks/5aa23e81c55041a60a51.bookmark.json",
+        "size_b": 145712,
+        "size_mb": 0.14
+      },
+      {
         "sha": "74bf3838fd007348d07e1bd28dffa636394afe3f",
         "path": "powerbi-projects/20260227_Product_Analysis_POC/20260227_Product_Analysis.Report/definition/pages/7d897b7585bab650ac06/page.json",
         "size_b": 93052,
+        "size_mb": 0.09
+      },
+      {
+        "sha": "0169dea41eb048d2d730499b0fdcd135ab50f569",
+        "path": "repository-health/history/top-files-history.csv",
+        "size_b": 90356,
         "size_mb": 0.09
       },
       {
@@ -132,24 +138,18 @@
         "path": "repository-health/history/top-files-history.csv",
         "size_b": 79724,
         "size_mb": 0.08
-      },
-      {
-        "sha": "3e44657ca9145e279aca6f13d9c80e1cfd5ea931",
-        "path": "repository-health/history/top-files-history.csv",
-        "size_b": 77066,
-        "size_mb": 0.07
       }
     ]
   },
   "growth": {
     "hasBaseline": true,
-    "size_pack_growth_pct": 0.0,
+    "size_pack_growth_pct": 2.78,
     "git_size_growth_pct": 0.0
   },
   "file_growth": {
     "hasBaseline": true,
     "baseline_commit": "d39ef15819887c2272e51feeec4f94ed64e53805",
-    "baseline_timestamp": "2026-10-12T08:50:57Z",
+    "baseline_timestamp": "2026-10-19T07:29:04Z",
     "new_entries_count": 0,
     "grown_entries_count": 0,
     "shrunk_entries_count": 0,
